@@ -5,6 +5,7 @@
   - course.yaml
 
   tasks:
+  - name: print course info
     ansible.builtin.debug:
       msg: "Course name is: {{COURSE}}, duration is {{DURATION}}, Trainer is : {{Trainer}}"
 
